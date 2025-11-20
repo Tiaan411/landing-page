@@ -30,6 +30,11 @@
     font-size: 18px;
 }
 
+.navbar ul li a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
 /* hero */
 
 .hero-main {
@@ -62,6 +67,11 @@
     background-color: #3882f6;
     color: #f9faf8;
     border: none;
+}
+
+.hero-1 button:hover {
+    background-color: #496183;
+    cursor: pointer;
 }
 
 .hero-2 {
@@ -145,12 +155,17 @@
     color: #f9faf8;
 }
 
-.sign-up .sign-up-button button {
+.sign-up-button button {
     background-color: #3882f6;
     color: #f9faf8;
     border: 1px solid #f9faf8;
     padding: 10px 30px;
     border-radius: 10px;
+}
+
+.sign-up-button button:hover {
+    background-color: #1f2937;
+    cursor: pointer;
 }
 
 /* footer */
