@@ -35,6 +35,12 @@
     color: #e5e7eb;
 }
 
+.navbar ul li a:hover {
+    background-color: #3882f6;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
 /* hero */
 
 .hero-main {
@@ -96,15 +102,21 @@
 .boks {
     display: flex;
     justify-content: space-between;
+    gap: 10px;
 }
 
 
-.info-sec .img {
-    height: 100px;
-    width: 100px;
-    border: 2px solid blue;
-    border-radius: 15px;
-    margin: 10px;
+/* .info-sec .img { */
+    /* height: 100px; */
+    /* width: 100px; */
+    /* border: 2px solid blue; */
+    /* border-radius: 15px; */
+    /* margin: 10px; */
+/* } */
+
+.info-sec .safari, .italy, .ship, .backpack {
+    max-width: 200px;
+    height: auto;
 }
 
 .info {
@@ -112,7 +124,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 150px;
+    max-width: 200px;
     margin: 10px;
 }
 
